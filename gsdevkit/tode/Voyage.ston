@@ -1,0 +1,8 @@
+TDObjectGatewayLeafNode{#name:'Voyage',#contents:'^ TDProjectSpecEntryDefinition new
+    baseline: \'Voyage\'
+      repository: \'filetree:///export/foos1/users/dhenrich/dev/_home/shared/repos/Voyage/repository\'
+      loads: #( \'default\' );
+    status: #( #\'active\' );
+    locked: false;
+    yourself.
+'}
