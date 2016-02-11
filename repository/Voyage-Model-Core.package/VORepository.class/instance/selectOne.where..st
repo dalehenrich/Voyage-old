@@ -1,3 +1,3 @@
 persistence
-selectOne: aClass where: aBlock
+selectOne: aClass where: aDictionary
 	self subclassResponsibility.

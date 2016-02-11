@@ -1,3 +1,3 @@
 persistence
-count: aClass where: condition
-	^ (self selectMany: aClass where: condition) size.
+count: aClass where: aDictionary
+	^ (self selectMany: aClass where: aDictionary) size.

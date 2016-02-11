@@ -1,3 +1,9 @@
 persistence
-selectOne: aClass where: aBlock
-	^(self listOf: aClass) detect: aBlock ifNone: [ nil ]
+selectOne: aClass where: aDictionary
+	(self listOf: aClass)
+		do: [ :each | 
+			aDictionary
+				keysAndValuesDo: [ :key :value | 
+					(each instVarNamed: key) = value
+						ifTrue: [ ^ each ] ] ].
+	^ nil

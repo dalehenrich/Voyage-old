@@ -1,5 +1,5 @@
 persistence
-selectMany: aClass where: aBlock sortBy: sortBlock
-	^sortBlock 
-		ifNotNil: [ (((self listOf: aClass) select: aBlock) asSortedCollection: sortBlock) asOrderedCollection ]
-		ifNil: [ (self listOf: aClass) select: aBlock ]
+selectMany: aClass where: aDictionary sortBy: sortBlock
+	| selectResult |
+	selectResult := self selectMany: aClass where: aDictionary.
+	^ sortBlock ifNotNil: [ (selectResult asSortedCollection: sortBlock) asOrderedCollection ] ifNil: [ selectResult ]

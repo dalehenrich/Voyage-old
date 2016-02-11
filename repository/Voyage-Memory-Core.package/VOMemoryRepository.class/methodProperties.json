@@ -2,11 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"cache" : "dkh 2/11/2016 00:10",
 		"collectionClassOf:" : "EstebanLorenzano 12/10/2013 15:54",
 		"collectionNameOf:" : "EstebanLorenzano 12/10/2013 15:54",
 		"commit:" : "EL 7/3/2008 08:47",
 		"count:" : "EstebanLorenzano 12/10/2013 18:13",
-		"count:where:" : "EstebanLorenzano 12/10/2013 18:13",
+		"count:where:" : "dkh 2/10/2016 23:58",
 		"initialize" : "EL 7/3/2008 08:47",
 		"isNew:" : "EstebanLorenzano 11/2/2010 16:58",
 		"list:" : "EstebanLorenzano 12/10/2013 15:54",
@@ -17,8 +18,10 @@
 		"removeAll:" : "NorbertHartl 7/10/2014 11:52",
 		"removeCollection:" : "NorbertHartl 7/10/2014 11:52",
 		"save:" : "JJE 6/6/2009 16:42",
-		"selectAll:" : "EL 6/5/2009 16:51",
+		"selectAll:" : "dkh 2/11/2016 00:16",
 		"selectAll:sortBy:" : "EstebanLorenzano 10/29/2009 10:37",
-		"selectMany:where:" : "EL 6/5/2009 16:51",
-		"selectMany:where:sortBy:" : "EstebanLorenzano 10/29/2009 10:50",
-		"selectOne:where:" : "EL 6/5/2009 16:51" } }
+		"selectMany:where:" : "dkh 2/11/2016 00:34",
+		"selectMany:where:limit:" : "dkh 2/11/2016 00:17",
+		"selectMany:where:limit:offset:" : "dkh 2/11/2016 00:39",
+		"selectMany:where:sortBy:" : "dkh 2/11/2016 00:05",
+		"selectOne:where:" : "dkh 2/11/2016 00:14" } }

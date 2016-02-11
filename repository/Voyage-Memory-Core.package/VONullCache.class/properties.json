@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Memory-Core-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "VONullCache",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
