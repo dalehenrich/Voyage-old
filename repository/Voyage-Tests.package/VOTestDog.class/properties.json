@@ -1,5 +1,5 @@
 {
-	"category" : "Voyage-Mongo-Tests-Data",
+	"category" : "Voyage-Tests-Data",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,7 +7,7 @@
 	"commentStamp" : "TorstenBergmann 3/4/2015 20:44",
 	"instvars" : [
 		 ],
-	"name" : "VOTestCat",
+	"name" : "VOTestDog",
 	"pools" : [
 		 ],
 	"super" : "VOTestPet",
