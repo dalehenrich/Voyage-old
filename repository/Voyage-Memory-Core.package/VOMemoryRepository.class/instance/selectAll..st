@@ -1,3 +1,3 @@
 persistence
 selectAll: aClass
-	^(self listOf: aClass) asArray 
+	^(self listOf: aClass) asArray

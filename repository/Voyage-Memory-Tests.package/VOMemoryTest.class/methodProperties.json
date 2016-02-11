@@ -2,5 +2,7 @@
 	"class" : {
 		"resources" : "dkh 02/10/2016 23:37" },
 	"instance" : {
+		"cleanRepository" : "dkh 02/11/2016 01:09",
 		"repository" : "dkh 2/10/2016 23:26",
-		"tearDown" : "dkh 2/10/2016 23:25" } }
+		"setUp" : "dkh 02/11/2016 01:09",
+		"tearDown" : "dkh 02/11/2016 01:09" } }

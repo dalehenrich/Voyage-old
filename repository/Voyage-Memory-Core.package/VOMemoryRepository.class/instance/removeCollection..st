@@ -1,5 +1,7 @@
 resetting
-removeCollection: aClass 
-	objectMap 
-		removeKey: (self collectionClassOf: aClass)
-		ifAbsent: [ "Do nothing" ]	
+removeCollection: aClass
+  objectMap
+    removeKey: (self collectionNameOf: aClass)
+    ifAbsent: [ 
+      "Do nothing"
+       ]
