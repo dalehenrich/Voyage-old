@@ -1,11 +1,9 @@
-private raw
+private
 rawEmbeded: anObject description: aDescription 
 	"I act as a kind of post-process of serialization for embed"
 	| jsonDictionary |
 	
-	jsonDictionary := self 
-		basicSerialize: anObject 
-		description: (self descriptionFor: anObject).
+	jsonDictionary := self serialize: anObject.
 	aDescription hasKind 
 		ifTrue: [ jsonDictionary removeKey: self class fieldType ifAbsent: [] ].
 		

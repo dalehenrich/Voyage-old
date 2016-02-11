@@ -1,6 +1,6 @@
 serializing
 serialize: anObject description: aDescription
-	^ self 
+	^self 
 		serialize: anObject 
-		description: aDescription 
-		id: nil
+		description: aDescription
+		using: Dictionary new

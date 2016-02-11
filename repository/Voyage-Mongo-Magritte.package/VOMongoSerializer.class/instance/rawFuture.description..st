@@ -1,5 +1,5 @@
-private raw
-rawFuture: aFuture
+private
+rawFuture: aFuture description: aDescription
 	| dictionary description realObject |
 	
 	realObject := aFuture realObject.
