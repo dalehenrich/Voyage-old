@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Memory-Tests-Resources",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "VOMemoryTestResource",
+	"pools" : [
+		 ],
+	"super" : "VOTestResource",
+	"type" : "normal" }

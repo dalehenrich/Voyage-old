@@ -8,12 +8,14 @@ baseline: spec
         package: 'Voyage-Model-Core';
         package: 'Voyage-Memory-Core'
           with: [ spec requires: 'Voyage-Model-Core' ];
+        package: 'Voyage-Memory-Tests' with: [ spec requires: 'Voyage-Tests' ];
+        package: 'Voyage-Tests' with: [ spec requires: 'Voyage-Model-Core' ];
         yourself.
       spec
         group: 'default' with: #('Core' 'Memory' 'Tests');
         group: 'Core' with: #('Voyage-Model-Core');
         group: 'Memory' with: #('Voyage-Memory-Core');
-        group: 'Tests' with: #() ].
+        group: 'Tests' with: #('Voyage-Tests' 'Voyage-Memory-Tests') ].
   spec
     for: #'pharo'
     do: [ 
@@ -40,7 +42,7 @@ baseline: spec
           with: [ spec requires: #('Magritte3' 'Voyage-Mongo-Core') ];
         package: 'Voyage-Seaside-Container'
           with: [ spec requires: 'Voyage-Model-Core' ];
-        package: 'Voyage-Mongo-Tests';
+        package: 'Voyage-Mongo-Tests' with: [ spec requires: 'Voyage-Tests' ];
         package: 'Voyage-Mongo-Utils'
           with: [ spec requires: #('Voyage-Mongo-Core') ].
       spec
