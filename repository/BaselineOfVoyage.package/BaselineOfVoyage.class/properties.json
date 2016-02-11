@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfVoyage",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 02/10/2016 20:07",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfVoyage",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
