@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "EstebanLorenzano 2/12/2014 14:02",
+		"pop" : "EstebanLorenzano 2/12/2014 14:02",
+		"push:" : "EstebanLorenzano 2/12/2014 14:01",
+		"startOn:" : "EstebanLorenzano 2/12/2014 14:05",
+		"visitAssociation:" : "EstebanLorenzano 2/12/2014 15:05",
+		"visitClass:" : "EstebanLorenzano 2/12/2014 14:25",
+		"visitCollection:" : "EstebanLorenzano 2/12/2014 14:15",
+		"visitDictionary:" : "EstebanLorenzano 2/12/2014 15:04",
+		"visitDictionaryAsClass:" : "EstebanLorenzano 2/12/2014 15:05",
+		"visitDictionaryAsDictionary:" : "EstebanLorenzano 2/24/2014 13:13",
+		"visitDictionaryAsObject:" : "EstebanLorenzano 2/12/2014 17:28",
+		"visitDictionaryAsReference:" : "EstebanLorenzano 2/12/2014 16:26",
+		"visitObject:" : "EstebanLorenzano 2/12/2014 14:26",
+		"visitTerminal:" : "EstebanLorenzano 2/12/2014 14:06" } }

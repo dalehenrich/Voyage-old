@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Serializer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"objects" ],
+	"name" : "VOJSONMaterializer1",
+	"pools" : [
+		 ],
+	"super" : "VOVisitor",
+	"type" : "normal" }

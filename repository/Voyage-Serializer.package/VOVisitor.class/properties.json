@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Serializer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"visitedObjects" ],
+	"name" : "VOVisitor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

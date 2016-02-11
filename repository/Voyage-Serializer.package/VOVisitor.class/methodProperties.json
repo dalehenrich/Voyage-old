@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addVisited:" : "EstebanLorenzano 1/20/2014 17:08",
+		"initialize" : "EstebanLorenzano 1/20/2014 20:37",
+		"isVisited:" : "EstebanLorenzano 1/20/2014 17:26",
+		"resetVisited" : "EstebanLorenzano 1/20/2014 20:36",
+		"startOn:" : "EstebanLorenzano 1/20/2014 21:49",
+		"validate:ifVisited:" : "EstebanLorenzano 1/20/2014 21:10",
+		"visit:" : "EstebanLorenzano 1/20/2014 21:09",
+		"visitAssociation:" : "EstebanLorenzano 1/22/2014 16:57",
+		"visitClass:" : "EstebanLorenzano 1/21/2014 13:37",
+		"visitCollection:" : "EstebanLorenzano 1/20/2014 16:10",
+		"visitDictionary:" : "EstebanLorenzano 1/20/2014 15:02",
+		"visitDocument:" : "EstebanLorenzano 1/21/2014 14:26",
+		"visitNil:" : "EstebanLorenzano 1/20/2014 17:40",
+		"visitObject:" : "EstebanLorenzano 1/20/2014 20:55",
+		"visitRoot:" : "EstebanLorenzano 1/20/2014 21:05",
+		"visitTerminal:" : "EstebanLorenzano 1/20/2014 14:14" } }

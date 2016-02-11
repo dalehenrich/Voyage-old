@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Serializer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"roots" ],
+	"name" : "VORootCollector",
+	"pools" : [
+		 ],
+	"super" : "VOVisitor",
+	"type" : "normal" }

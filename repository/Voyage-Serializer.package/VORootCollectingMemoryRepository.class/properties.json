@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Serializer-Repository",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "VORootCollectingMemoryRepository",
+	"pools" : [
+		 ],
+	"super" : "VOMemoryRepository",
+	"type" : "normal" }

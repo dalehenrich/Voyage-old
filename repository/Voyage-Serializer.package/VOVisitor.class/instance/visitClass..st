@@ -1,0 +1,2 @@
+visitor
+visitClass: aClass

@@ -1,0 +1,15 @@
+{
+	"category" : "Voyage-Serializer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"references",
+		"serializedMap" ],
+	"name" : "VOSerializer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

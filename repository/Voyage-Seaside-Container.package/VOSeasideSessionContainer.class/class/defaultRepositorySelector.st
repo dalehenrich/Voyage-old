@@ -1,0 +1,3 @@
+defaults
+defaultRepositorySelector
+	^#repository

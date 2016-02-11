@@ -1,0 +1,2 @@
+visitor
+visitTerminal: anObject

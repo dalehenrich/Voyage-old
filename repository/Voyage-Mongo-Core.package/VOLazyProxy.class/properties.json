@@ -1,0 +1,16 @@
+{
+	"category" : "Voyage-Mongo-Core-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"repository",
+		"objectClass",
+		"objectId" ],
+	"name" : "VOLazyProxy",
+	"pools" : [
+		 ],
+	"super" : "ProtoObject",
+	"type" : "normal" }

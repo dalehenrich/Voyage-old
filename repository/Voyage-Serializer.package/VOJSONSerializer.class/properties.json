@@ -1,0 +1,16 @@
+{
+	"category" : "Voyage-Serializer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"references",
+		"json",
+		"stream" ],
+	"name" : "VOJSONSerializer",
+	"pools" : [
+		 ],
+	"super" : "VOVisitor",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+private
+pop 
+	^ objects removeLast.

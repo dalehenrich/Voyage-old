@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Seaside-Container",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"repositorySelector" ],
+	"name" : "VOSeasideSessionContainer",
+	"pools" : [
+		 ],
+	"super" : "VORepositoryContainer",
+	"type" : "normal" }

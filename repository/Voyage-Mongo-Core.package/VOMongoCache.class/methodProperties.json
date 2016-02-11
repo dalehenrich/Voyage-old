@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"defaultCompactLimit" : "EstebanLorenzano 9/27/2011 16:56",
+		"maximumCompactLimit" : "EstebanLorenzano 9/27/2011 17:04",
+		"minimumCompactLimit" : "EstebanLorenzano 9/27/2011 17:04" },
+	"instance" : {
+		"at:" : "EstebanLorenzano 12/13/2011 11:01",
+		"at:put:" : "EstebanLorenzano 6/14/2012 11:21",
+		"at:putVersion:" : "EstebanLorenzano 6/14/2012 11:21",
+		"compactIfNeeded" : "EstebanLorenzano 6/14/2012 11:22",
+		"compactLimit" : "EstebanLorenzano 9/27/2011 16:56",
+		"compactLimit:" : "EstebanLorenzano 9/27/2011 17:03",
+		"flush" : "EstebanLorenzano 6/14/2012 11:21",
+		"initialize" : "EstebanLorenzano 5/10/2012 14:17",
+		"keyAtValue:" : "EstebanLorenzano 10/28/2011 22:27",
+		"keyAtValue:ifAbsent:" : "EstebanLorenzano 12/13/2011 11:01",
+		"mutex" : "EstebanLorenzano 6/14/2012 11:20",
+		"performCompact" : "EstebanLorenzano 5/25/2012 11:44",
+		"printOn:" : "EstebanLorenzano 12/13/2011 11:01",
+		"recalculateCompactLimit" : "EstebanLorenzano 12/13/2011 11:02",
+		"removeValue:" : "MarianoMartinezPeck 2/4/2013 16:08",
+		"versionAt:" : "EstebanLorenzano 5/31/2012 12:57" } }

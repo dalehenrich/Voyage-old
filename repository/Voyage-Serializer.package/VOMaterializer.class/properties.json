@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Serializer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"references" ],
+	"name" : "VOMaterializer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
