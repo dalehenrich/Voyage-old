@@ -1,0 +1,15 @@
+{
+	"category" : "Voyage-Tugrik-Core-Pooling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"database",
+		"sessionDescription" ],
+	"name" : "VOTugrikSessionPool",
+	"pools" : [
+		 ],
+	"super" : "VOSessionPool",
+	"type" : "normal" }

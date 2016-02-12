@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Tugrik-Core-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "VOTugrikConnectionError",
+	"pools" : [
+		 ],
+	"super" : "VOMongoError",
+	"type" : "normal" }
