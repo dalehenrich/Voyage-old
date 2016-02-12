@@ -1,3 +1,0 @@
-private
-objectMap 
-	^objectMap
