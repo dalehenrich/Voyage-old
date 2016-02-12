@@ -38,20 +38,17 @@ baseline: spec
 				yourself.
 			spec
 				package: 'Voyage-Mongo-Core' with: [ spec requires: #('MongoTalk' 'Voyage-Model-Core') ];
-				package: 'Voyage-Tugrik-Core' with: [ spec requires: #('Tugrik' 'Voyage-Model-Core') ];
+				package: 'Voyage-Tugrik-Core' with: [ spec requires: #('Tugrik' 'Voyage-Model-Core' 'Voyage-Mongo-Core') ];
 				package: 'Voyage-Mongo-Magritte' with: [ spec requires: #('Magritte3' 'Voyage-Mongo-Core') ];
 				package: 'Voyage-Seaside-Container' with: [ spec requires: 'Voyage-Model-Core' ];
 				package: 'Voyage-Mongo-Tests' with: [ spec requires: 'Voyage-Tests' ];
 				package: 'Voyage-Mongo-Utils' with: [ spec requires: #('Voyage-Mongo-Core') ];
-				package: 'Voyage-GemStone-Client' with: [ spec requires: 'Voyage-Model-Core' ];
-				package: 'Voyage-GemStone-Tests-Client' with: [ spec requires: #('Voyage-Tests' 'Voyage-GemStone-Client') ];
 				yourself.
 			spec
 				group: 'default' with: #('Mongo' 'Memory' 'GemStone');
 				group: 'Mongo' with: #('Voyage-Mongo-Core' 'Voyage-Mongo-Magritte' 'Voyage-Mongo-Utils');
 				group: 'Tugrik' with: #('Voyage-Tugrik-Core' );
-				group: 'GemStone' with: #('Voyage-GemStone-Client');
-				group: 'Tests' with: #('Voyage-Mongo-Tests' 'Voyage-GemStone-Tests-Client');
+				group: 'Tests' with: #('Voyage-Mongo-Tests' );
 				yourself ].
 	spec
 		for: #(#'gs3.2.x' #'gs3.3.x' #'gs3.4.x')
