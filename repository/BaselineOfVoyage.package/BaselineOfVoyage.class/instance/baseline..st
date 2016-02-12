@@ -61,13 +61,13 @@ baseline: spec
     for: #(#'gs3.2.x' #'gs3.3.x' #'gs3.4.x')
     do: [ 
       spec
-        package: 'Voyage-GemStone-Core'
+        package: 'Voyage-GemStone-Server'
           with: [ spec requires: 'Voyage-Model-Core' ];
-        package: 'Voyage-GemStone-Tests'
-          with: [ spec requires: #('Voyage-Tests' 'Voyage-GemStone-Core') ];
+        package: 'Voyage-GemStone-Tests-Server'
+          with: [ spec requires: #('Voyage-Tests' 'Voyage-GemStone-Server') ];
         yourself.
       spec
         group: 'default' with: #('GemStone' 'Memory');
-        group: 'GemStone' with: #('Voyage-GemStone-Core');
-        group: 'Tests' with: #('Voyage-GemStone-Tests');
+        group: 'GemStone' with: #('Voyage-GemStone-Server');
+        group: 'Tests' with: #('Voyage-GemStone-Tests-Server');
         yourself ]

@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-GemStone-Server-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 02/11/2016 16:55",
+	"instvars" : [
+		"objectMap" ],
+	"name" : "VOGemStoneRepository",
+	"pools" : [
+		 ],
+	"super" : "VORepository",
+	"type" : "normal" }
