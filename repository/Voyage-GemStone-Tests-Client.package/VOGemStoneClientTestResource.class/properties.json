@@ -1,13 +1,13 @@
 {
-	"category" : "Voyage-GemStone-Tests-Server-Resources",
+	"category" : "Voyage-GemStone-Tests-Client-Resources",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "dkh 02/11/2016 16:56",
+	"commentStamp" : "dkh 02/11/2016 18:50",
 	"instvars" : [
 		 ],
-	"name" : "VOGemStoneTestResource",
+	"name" : "VOGemStoneClientTestResource",
 	"pools" : [
 		 ],
 	"super" : "VOTestResource",

@@ -70,7 +70,7 @@ baseline: spec
         package: 'Voyage-GemStone-Server'
           with: [ spec requires: 'Voyage-Model-Core' ];
         package: 'Voyage-GemStone-Tests-Server'
-          with: [ spec requires: #('Voyage-Tests' 'Voyage-GemStone-Server') ];
+          with: [ spec requires: #('Voyage-GemStone-Server') ];
         yourself.
       spec
         group: 'default' with: #('GemStone' 'Memory');
