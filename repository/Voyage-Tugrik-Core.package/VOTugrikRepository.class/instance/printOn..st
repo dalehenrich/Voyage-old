@@ -1,6 +1,5 @@
 printing
-printOn: aStream 
-
+printOn: aStream
 	super initialize.
-	host ifNotNil: [ aStream nextPutAll: ' ', host, ' '].
-	databaseName ifNotNil: [ aStream nextPutAll: databaseName ].
+	sessionDescription ifNotNil: [ aStream nextPutAll: ' ' , sessionDescription name , ' ' ].
+	databaseName ifNotNil: [ aStream nextPutAll: databaseName ]

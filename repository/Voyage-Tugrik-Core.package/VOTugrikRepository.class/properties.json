@@ -6,15 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"port",
 		"databaseName",
-		"host",
-		"username",
-		"password",
 		"cache",
 		"descriptionBuilder",
 		"resolver",
-		"forceEager" ],
+		"sessionDescription" ],
 	"name" : "VOTugrikRepository",
 	"pools" : [
 		 ],
