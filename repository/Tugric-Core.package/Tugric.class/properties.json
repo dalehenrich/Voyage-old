@@ -1,0 +1,17 @@
+{
+	"category" : "Tugric-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"host",
+		"port",
+		"stream",
+		"requestID" ],
+	"name" : "Tugric",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
