@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"cache" : "dkh 02/11/2016 19:04",
+		"collectionClassOf:" : "dkh 02/11/2016 19:04",
+		"collectionNameOf:" : "dkh 02/11/2016 19:04",
+		"commit:" : "dkh 02/11/2016 19:04",
+		"count:" : "dkh 02/11/2016 19:04",
+		"count:where:" : "dkh 02/11/2016 19:04",
+		"initialize" : "dkh 02/11/2016 19:04",
+		"isNew:" : "dkh 02/11/2016 19:04",
+		"list:" : "dkh 02/11/2016 19:04",
+		"listOf:" : "dkh 02/11/2016 19:04",
+		"objectMap" : "dkh 02/11/2016 19:04",
+		"objectMap:" : "dkh 02/11/2016 19:04",
+		"remove:" : "dkh 02/11/2016 19:04",
+		"removeAll:" : "dkh 02/11/2016 19:04",
+		"removeCollection:" : "dkh 02/11/2016 19:04",
+		"save:" : "dkh 02/11/2016 19:04",
+		"selectAll:" : "dkh 02/11/2016 19:04",
+		"selectAll:sortBy:" : "dkh 02/11/2016 19:04",
+		"selectMany:where:" : "dkh 02/11/2016 19:04",
+		"selectMany:where:limit:" : "dkh 02/11/2016 19:04",
+		"selectMany:where:limit:offset:" : "dkh 02/11/2016 19:04",
+		"selectMany:where:sortBy:" : "dkh 02/11/2016 19:04",
+		"selectOne:where:" : "dkh 02/11/2016 19:04" } }
