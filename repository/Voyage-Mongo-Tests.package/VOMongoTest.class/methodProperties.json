@@ -4,4 +4,5 @@
 	"instance" : {
 		"repository" : "FrancoisStephany 8/8/2012 15:07",
 		"tearDown" : "FrancoisStephany 9/3/2012 19:47",
+		"testIsNew" : "dkh 2/11/2016 16:43",
 		"testSelectManyWithAllKeyword" : "dkh 2/11/2016 12:28" } }
