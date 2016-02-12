@@ -8,14 +8,16 @@ baseline: spec
         package: 'Voyage-Model-Core';
         package: 'Voyage-Memory-Core'
           with: [ spec requires: 'Voyage-Model-Core' ];
-        package: 'Voyage-Memory-Tests' with: [ spec requires: 'Voyage-Tests' ];
+        package: 'Voyage-Memory-Tests'
+          with: [ spec requires: #('Voyage-Tests' 'Voyage-Memory-Core') ];
         package: 'Voyage-Tests' with: [ spec requires: 'Voyage-Model-Core' ];
         yourself.
       spec
-        group: 'default' with: #('Core' 'Memory' 'Tests');
+        group: 'default' with: #('Core' 'Tests');
         group: 'Core' with: #('Voyage-Model-Core');
         group: 'Memory' with: #('Voyage-Memory-Core');
-        group: 'Tests' with: #('Voyage-Tests' 'Voyage-Memory-Tests') ].
+        group: 'Tests' with: #('Voyage-Tests' 'Voyage-Memory-Tests');
+        yourself ].
   spec
     for: #'pharo'
     do: [ 
@@ -36,6 +38,8 @@ baseline: spec
                 version: #'stable';
                 repository:
                     'http://www.smalltalkhub.com/mc/MongoTalkTeam/mongotalk/main' ];
+        yourself.
+      spec
         package: 'Voyage-Mongo-Core'
           with: [ spec requires: #('MongoTalk' 'Voyage-Model-Core') ];
         package: 'Voyage-Mongo-Magritte'
@@ -44,10 +48,26 @@ baseline: spec
           with: [ spec requires: 'Voyage-Model-Core' ];
         package: 'Voyage-Mongo-Tests' with: [ spec requires: 'Voyage-Tests' ];
         package: 'Voyage-Mongo-Utils'
-          with: [ spec requires: #('Voyage-Mongo-Core') ].
+          with: [ spec requires: #('Voyage-Mongo-Core') ];
+        yourself.
       spec
-        group: 'default' with: #('Mongo');
+        group: 'default' with: #('Mongo' 'Memory');
         group: 'Mongo'
           with:
             #('Voyage-Mongo-Core' 'Voyage-Mongo-Magritte' 'Voyage-Mongo-Utils');
-        group: 'Tests' with: #('Voyage-Mongo-Tests') ]
+        group: 'Tests' with: #('Voyage-Mongo-Tests');
+        yourself ].
+  spec
+    for: #(#'gs3.2.x' #'gs3.3.x' #'gs3.4.x')
+    do: [ 
+      spec
+        package: 'Voyage-GemStone-Core'
+          with: [ spec requires: 'Voyage-Model-Core' ];
+        package: 'Voyage-GemStone-Tests'
+          with: [ spec requires: #('Voyage-Tests' 'Voyage-GemStone-Core') ];
+        yourself.
+      spec
+        group: 'default' with: #('GemStone' 'Memory');
+        group: 'GemStone' with: #('Voyage-GemStone-Core');
+        group: 'Tests' with: #('Voyage-GemStone-Tests');
+        yourself ]

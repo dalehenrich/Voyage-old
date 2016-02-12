@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-GemStone-Tests-Server",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 02/11/2016 16:56",
+	"instvars" : [
+		 ],
+	"name" : "VOGemStoneTest",
+	"pools" : [
+		 ],
+	"super" : "VORepositoryTest",
+	"type" : "normal" }
