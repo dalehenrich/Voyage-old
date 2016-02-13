@@ -42,13 +42,14 @@ baseline: spec
 				package: 'Voyage-Mongo-Magritte' with: [ spec requires: #('Magritte3' 'Voyage-Mongo-Core') ];
 				package: 'Voyage-Seaside-Container' with: [ spec requires: 'Voyage-Model-Core' ];
 				package: 'Voyage-Mongo-Tests' with: [ spec requires: 'Voyage-Tests' ];
+				package: 'Voyage-Tugrik-Tests' with: [ spec requires: 'Voyage-Mongo-Tests' ];
 				package: 'Voyage-Mongo-Utils' with: [ spec requires: #('Voyage-Mongo-Core') ];
 				yourself.
 			spec
 				group: 'default' with: #('Mongo' 'Memory' 'GemStone');
 				group: 'Mongo' with: #('Voyage-Mongo-Core' 'Voyage-Mongo-Magritte' 'Voyage-Mongo-Utils');
-				group: 'Tugrik' with: #('Voyage-Tugrik-Core' );
-				group: 'Tests' with: #('Voyage-Mongo-Tests' );
+				group: 'Tugrik' with: #('Voyage-Tugrik-Core');
+				group: 'Tests' with: #('Voyage-Mongo-Tests' 'Voyage-Tugrik-Tests');
 				yourself ].
 	spec
 		for: #(#'gs3.2.x' #'gs3.3.x' #'gs3.4.x')
