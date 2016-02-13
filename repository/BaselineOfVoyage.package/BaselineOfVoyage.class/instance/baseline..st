@@ -34,11 +34,11 @@ baseline: spec
 								file: 'ConfigurationOfMongoTalk';
 								version: #stable;
 								repository: 'http://www.smalltalkhub.com/mc/MongoTalkTeam/mongotalk/main' ];
-				baseline: 'Tugrik' with: [ spec repository: 'github://dalehenrich/Tugrik:master/repository' ];
+				baseline: 'TugrikTalk' with: [ spec repository: 'github://dalehenrich/Tugrik:master/repository' ];
 				yourself.
 			spec
 				package: 'Voyage-Mongo-Core' with: [ spec requires: #('MongoTalk' 'Voyage-Model-Core') ];
-				package: 'Voyage-Tugrik-Core' with: [ spec requires: #('Tugrik' 'Voyage-Model-Core' 'Voyage-Mongo-Core') ];
+				package: 'Voyage-Tugrik-Core' with: [ spec requires: #('TugrikTalk' 'Voyage-Model-Core' 'Voyage-Mongo-Core') ];
 				package: 'Voyage-Mongo-Magritte' with: [ spec requires: #('Magritte3' 'Voyage-Mongo-Core') ];
 				package: 'Voyage-Seaside-Container' with: [ spec requires: 'Voyage-Model-Core' ];
 				package: 'Voyage-Mongo-Tests' with: [ spec requires: 'Voyage-Tests' ];
